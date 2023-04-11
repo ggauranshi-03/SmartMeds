@@ -23,7 +23,9 @@ class RecordsList extends Component {
         header: address,
         description: (
           <Link route={`/record/${address}`}>
-            <a>View Record</a>
+            {/* <a> */}
+            View Record
+            {/* </a> */}
           </Link>
         ),
         fluid: true,

@@ -32,46 +32,52 @@ export default class MenuBar extends Component {
         }}
       >
         <Link route="/">
-          <a className="item" style={{ fontSize: "20px" }}>
+          {/* <a className="item" style={{ fontSize: "20px" }}> */}
             Home
-          </a>
+          {/* </a> */}
         </Link>
 
         <Menu.Menu position="right">
           <Link route="/dashboard">
-            <a className="item" style={{ fontSize: "20px" }}>
+            {/* <a className="item" style={{ fontSize: "20px" }}> */}
               Dashboard
-            </a>
+            {/* </a> */}
           </Link>
 
           <Link route="/list">
-            <a className="item" style={{ fontSize: "20px" }}>
+            {/* <a className="item" style={{ fontSize: "20px" }}> */}
               Records List
-            </a>
+            {/* </a> */}
           </Link>
 
           <Dropdown item text="Doctor" style={{ fontSize: "20px" }}>
             <Dropdown.Menu>
               <Dropdown.Item>
                 <Link route="/">
-                  <a style={{ color: "black" }} onClick={this.onClickedDoctor}>
+                  {/* <a style={{ color: "black" }} onClick={this.onClickedDoctor}> */}
                     View Profile
-                  </a>
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/edit-doctor">
-                  <a style={{ color: "black" }}>Edit Profile</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Edit Profile
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/make-appointment">
-                  <a style={{ color: "black" }}>Make Appointment</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Make Appointment
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/edit-appointment">
-                  <a style={{ color: "black" }}>Update Appointment</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Update Appointment
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
             </Dropdown.Menu>
@@ -81,24 +87,31 @@ export default class MenuBar extends Component {
             <Dropdown.Menu>
               <Dropdown.Item>
                 <Link route="/">
-                  <a style={{ color: "black" }} onClick={this.onClickedPatient}>
+                  {/* <a style={{ color: "black" }} onClick={this.onClickedPatient}> */}
                     View Profile
-                  </a>
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/edit-patient">
-                  <a style={{ color: "black" }}>Edit Profile</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Edit Profile
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/approve-doctor">
-                  <a style={{ color: "black" }}>Allow Access</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Allow Access
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/revoke-doctor">
-                  <a style={{ color: "black" }}>Revoke Access</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Revoke Access
+                  {/* </a>
+                   */}
                 </Link>
               </Dropdown.Item>
             </Dropdown.Menu>
@@ -108,12 +121,16 @@ export default class MenuBar extends Component {
             <Dropdown.Menu>
               <Dropdown.Item>
                 <Link route="/register-patient">
-                  <a style={{ color: "black" }}>Patient</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Patient
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link route="/register-doctor">
-                  <a style={{ color: "black" }}>Doctor</a>
+                  {/* <a style={{ color: "black" }}> */}
+                  Doctor
+                  {/* </a> */}
                 </Link>
               </Dropdown.Item>
             </Dropdown.Menu>

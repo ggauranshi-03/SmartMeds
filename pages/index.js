@@ -154,7 +154,7 @@ class DesktopContainer extends Component {
               }}
             >
               <Link route="/">
-                <a className="item" style={{ color: "black" }}>
+                {/* <a className="item" style={{ color: "black" }}> */}
                   <img
                     src="https://gateway.pinata.cloud/ipfs/QmQ2mkZw5c2Cstp4NboT4moaNrCiYFoXF9bB8e43gQiFoN?_gl=1*b1mo2a*_ga*YmNlZmNjNTUtY2Q2Ni00OTkxLTk2MGEtY2UxYzQwOTJhNmUw*_ga_5RMPXG14TE*MTY3OTIwMTQzMS4xLjEuMTY3OTIwMTQ1NC4zNy4wLjA"
                     // height="100em"
@@ -165,34 +165,34 @@ class DesktopContainer extends Component {
                       opacity: "1",
                     }}
                   ></img>
-                </a>
+                {/* </a> */}
               </Link>
 
               <Menu.Menu position="right">
                 <Link href="https://ayushs-organization.gitbook.io/smartmeds/">
-                  <a
+                  {/* <a
                     className="item"
                     style={{ color: "black", fontSize: "20px" }}
-                  >
+                  > */}
                     Docs
-                  </a>
+                  {/* </a> */}
                 </Link>
                 <Link route="/dashboard">
-                  <a
+                  {/* <a
                     className="item"
                     style={{ color: "black", fontSize: "20px" }}
-                  >
+                  > */}
                     Dashboard
-                  </a>
+                  {/* </a> */}
                 </Link>
 
                 <Link route="/list">
-                  <a
+                  {/* <a
                     className="item"
                     style={{ color: "black", fontSize: "20px" }}
-                  >
+                  > */}
                     Records List
-                  </a>
+                  {/* </a> */}
                 </Link>
 
                 <Dropdown
@@ -203,27 +203,33 @@ class DesktopContainer extends Component {
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <Link route="/">
-                        <a
+                        {/* <a
                           style={{ color: "black" }}
                           onClick={this.onClickedDoctor}
-                        >
+                        > */}
                           View Profile
-                        </a>
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/edit-doctor">
-                        <a style={{ color: "black" }}>Edit Profile</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Edit Profile
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/make-appointment">
-                        <a style={{ color: "black" }}>Make Appointment</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Make Appointment
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/edit-appointment">
-                        <a style={{ color: "black" }}>Update Appointment</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Update Appointment
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                   </Dropdown.Menu>
@@ -237,27 +243,33 @@ class DesktopContainer extends Component {
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <Link route="/">
-                        <a
+                        {/* <a
                           style={{ color: "black" }}
                           onClick={this.onClickedPatient}
-                        >
+                        > */}
                           View Profile
-                        </a>
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/edit-patient">
-                        <a style={{ color: "black" }}>Edit Profile</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Edit Profile
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/approve-doctor">
-                        <a style={{ color: "black" }}>Allow Access</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Allow Access
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/revoke-doctor">
-                        <a style={{ color: "black" }}>Revoke Access</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Revoke Access
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                   </Dropdown.Menu>
@@ -271,12 +283,16 @@ class DesktopContainer extends Component {
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <Link route="/register-patient">
-                        <a style={{ color: "black" }}>Patient</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Patient
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link route="/register-doctor">
-                        <a style={{ color: "black" }}>Doctor</a>
+                        {/* <a style={{ color: "black" }}> */}
+                        Doctor
+                        {/* </a> */}
                       </Link>
                     </Dropdown.Item>
                   </Dropdown.Menu>
@@ -331,42 +347,54 @@ class MobileContainer extends Component {
             visible={sidebarOpened}
           >
             <Link route="/">
-              <a className="item">Home</a>
+              {/* <a className="item"> */}
+              Home
+              {/* </a> */}
             </Link>
 
             <Link route="/dashboard">
-              <a className="item">Dashboard</a>
+              {/* <a className="item"> */}
+              Dashboard
+              {/* </a> */}
             </Link>
 
             <Link route="/list">
-              <a className="item">Records List</a>
+              {/* <a className="item"> */}
+              Records List
+              {/* </a> */}
             </Link>
 
             <Dropdown item text="Doctor">
               <Dropdown.Menu>
                 <Dropdown.Item>
                   <Link route="/">
-                    <a
+                    {/* <a
                       style={{ color: "black" }}
                       onClick={this.onClickedDoctor}
-                    >
+                    > */}
                       View Profile
-                    </a>
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/edit-doctor">
-                    <a style={{ color: "black" }}>Edit Profile</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Edit Profile
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/make-appointment">
-                    <a style={{ color: "black" }}>Make Appointment</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Make Appointment
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/edit-appointment">
-                    <a style={{ color: "black" }}>Update Appointment</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Update Appointment
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
@@ -376,27 +404,33 @@ class MobileContainer extends Component {
               <Dropdown.Menu>
                 <Dropdown.Item>
                   <Link route="/">
-                    <a
+                    {/* <a
                       style={{ color: "black" }}
                       onClick={this.onClickedPatient}
-                    >
+                    > */}
                       View Profile
-                    </a>
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/edit-patient">
-                    <a style={{ color: "black" }}>Edit Profile</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Edit Profile
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/approve-doctor">
-                    <a style={{ color: "black" }}>Allow Access</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Allow Access
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/revoke-doctor">
-                    <a style={{ color: "black" }}>Revoke Access</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Revoke Access
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
@@ -406,12 +440,16 @@ class MobileContainer extends Component {
               <Dropdown.Menu>
                 <Dropdown.Item>
                   <Link route="/register-patient">
-                    <a style={{ color: "black" }}>Patient</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Patient
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <Link route="/register-doctor">
-                    <a style={{ color: "black" }}>Doctor</a>
+                    {/* <a style={{ color: "black" }}> */}
+                    Doctor
+                    {/* </a> */}
                   </Link>
                 </Dropdown.Item>
               </Dropdown.Menu>

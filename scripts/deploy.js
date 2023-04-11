@@ -139,8 +139,8 @@ const Record = new web3.eth.Contract(contract.abi);
     data: contract.bytecode,
   }).send({
     from: accounts[0],
-    gas: 5000000,
-    gasPrice: 10000000000,
+    gas: 6721975,
+    gasPrice: 20000000000,
   });
 
   console.log(`Contract deployed at address ${result.options.address}`);

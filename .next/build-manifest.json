@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/register-patient": [
+    "/register-doctor": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/register-patient.js"
+      "static/chunks/pages/register-doctor.js"
     ]
   },
   "ampFirstPages": []

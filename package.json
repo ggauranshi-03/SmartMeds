@@ -13,6 +13,7 @@
   "dependencies": {
     "@artsy/fresnel": "^6.1.0",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "fs": "^0.0.1-security",
     "fs-extra": "^11.1.1",
     "next": "^13.3.0",
     "next-routes-extended": "^1.7.0",
@@ -24,5 +25,10 @@
     "semantic-ui-react": "^2.1.4",
     "solc": "^0.8.19",
     "web3": "^1.9.0"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }
